@@ -1,0 +1,81 @@
+{
+	"groups": [
+	],
+	"resources": [
+		{
+			"url": "pics_noimg/pic001.json",
+			"type": "json",
+			"name": "pic001_json"
+		},
+		{
+			"url": "pics_noimg/pic002.json",
+			"type": "json",
+			"name": "pic002_json"
+		},
+		{
+			"url": "pics_noimg/pic003.json",
+			"type": "json",
+			"name": "pic003_json"
+		},
+		{
+			"url": "pics_noimg/pic004.json",
+			"type": "json",
+			"name": "pic004_json"
+		},
+		{
+			"url": "pics_noimg/pic005.json",
+			"type": "json",
+			"name": "pic005_json"
+		},
+		{
+			"url": "pics_noimg/pic006.json",
+			"type": "json",
+			"name": "pic006_json"
+		},
+		{
+			"url": "pics_noimg/pic007.json",
+			"type": "json",
+			"name": "pic007_json"
+		},
+		{
+			"url": "pics_noimg/pic008.json",
+			"type": "json",
+			"name": "pic008_json"
+		},
+		{
+			"url": "pics_noimg/pic009.json",
+			"type": "json",
+			"name": "pic009_json"
+		},
+		{
+			"url": "pics_noimg/pic010.json",
+			"type": "json",
+			"name": "pic010_json"
+		},
+		{
+			"url": "pics_noimg/pic011.json",
+			"type": "json",
+			"name": "pic011_json"
+		},
+		{
+			"url": "pics_noimg/pic012.json",
+			"type": "json",
+			"name": "pic012_json"
+		},
+		{
+			"url": "pics_noimg/pic013.json",
+			"type": "json",
+			"name": "pic013_json"
+		},
+		{
+			"url": "pics_noimg/pic014.json",
+			"type": "json",
+			"name": "pic014_json"
+		},
+		{
+			"url": "pics_noimg/pic015.json",
+			"type": "json",
+			"name": "pic015_json"
+		}
+	]
+}

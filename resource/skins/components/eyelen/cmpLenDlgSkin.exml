@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="cmpLenDlgSkin" width="400" height="350" xmlns:e="http://ns.egret.com/eui">
+
+	<e:Image id="bg" height="280" width="100%" x="0" y="0" source="cmpLenBg_png"/>
+	<e:Button id="nextBtn" width="80" height="90" label="下一长度" skinName="resource/skins/components/eyelen/cmpLenNextBtnSkin.exml" y="240" x="169"/>
+	<e:Label id="scoreValue" text="+30" size="45" textAlign="center" textColor="0x000000" y="20" width="90" x="155"/>
+	<e:Image id="correLenIcon" height="50" width="50" source="questioner_png" y="135" x="20"/>
+	<e:Group id="correLen" width="200" height="40" x="75" y="139"/>
+	<e:Image id="userLenIcon" height="50" width="50" source="ruler_head_png" x="20" y="190"/>
+	<e:Group id="userLen" width="200" height="40" x="75" y="195"/>
+	<e:Group id="scoreFlags" height="37" width="99" y="70" x="150"/>
+
+</e:Skin>

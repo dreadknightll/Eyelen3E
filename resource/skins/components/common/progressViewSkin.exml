@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="progressViewSkin" width="250" height="75" xmlns:e="http://ns.egret.com/eui">
+	<e:Label text="进度" width="42" height="66" textColor="0x000000" x="0" y="4"/>
+	<e:Group id="progressCells" height="18" width="200" x="30" y="25"/>
+</e:Skin>

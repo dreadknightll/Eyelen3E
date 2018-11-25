@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="alertPanelSkin" width="400" height="280" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="bgGrp" width="1" height="1" />
+	<e:Label id="content" text="标签" x="22" y="46" size="24" textColor="0x000000"
+	          width="350" height="115" multiline="true" bold="true"/>
+	<e:Button id="yesBtn" skinName="yesBtnSkin" label="是" x="47" y="203" width="150" height="55"/>
+	<e:Button id="noBtn" label="否" skinName="noBtnSkin" x="201" y="203" width="150" height="55"/>
+</e:Skin>

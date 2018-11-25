@@ -1,0 +1,31 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/default.res.json.baiduyun.uploading.cfg",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/default.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/picRes_WebGL.res.json.baiduyun.uploading.cfg",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/picRes_WebGL.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/delpicRes_HTTPS.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/picRes_NoImg.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/default.thm.json"
+}

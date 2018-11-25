@@ -1,0 +1,28 @@
+components:
+	pageJumperAdapters/Eyelen/CPage2EyelenPraContainerAdapter.ts
+	(OK)praMachine/Eyelen/CEyelen3EPraMachineDifficult.ts
+	(OK)praMachine/Eyelen/CEyelen3EPraMachineEasy.ts
+
+	(OK)presenters/Basic_CaliPresenter.ts
+	presenters/Eyelen/CEyelen3EPraEasyPresenter.ts
+	presenters/Eyelen/CEyelen3EPraDifficultPresenter.ts
+
+	(OK)renderFilters/CNoChangeRenderFilterLen.ts
+	(OK)renderFilters/CEyelen3ERenderFilter.ts
+
+	(OK)UICompontents/common/ScoreFlagRect.ts
+
+	(OK)winModel/CEyelen3EWinModelV2.ts
+	(OK)inc/funcs/eyelen/funcs_Eyelen3E.ts
+
+UI:
+	£¨ÏÖ½×¶ÎOK£©containers/common/CUIContainer.ts
+	£¨ÏÖ½×¶ÎOK£©containers/Eyelen/CEyelenPraContainer.ts
+
+
+
+
+
+
+
+

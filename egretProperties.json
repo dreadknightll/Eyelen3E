@@ -1,0 +1,48 @@
+{
+  "engineVersion": "5.2.12",
+  "compilerVersion": "5.2.12",
+  "template": {},
+  "target": {
+    "current": "wxgame"
+  },
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins",
+      "resource/skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "commonjs"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "libGdeint",
+      "path": "/Users/dreadknightll/Desktop/src/gdeint/libGdeint/libGdeint"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "Eyelen3E_Android",
+      "packagename": "com.gdeint"
+    }
+  }
+}

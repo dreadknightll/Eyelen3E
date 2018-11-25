@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="closeBtnSkin" states="up,down,disabled" width="40" height="50"
+        xmlns:e="http://ns.egret.com/eui">
+
+	<e:Image id="theImg" width="40" height="50" source="closeBtn_png" y="1" x="3"/>
+	
+</e:Skin>

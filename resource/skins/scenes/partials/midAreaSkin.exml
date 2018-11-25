@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="midAreaSkin" width="640" height="1100" xmlns:e="http://ns.egret.com/eui" xmlns:eyelen3E="eyelen3E.*">
+	<e:Group id="midBgGrp" width="1" height="1" x="0" y="0"/>
+	<e:Group id="midContentGroup" x="0" y="0">
+		<e:Group id="imgGrp" x="0" y="0">
+			<e:Group id="randomGraph" x="0" y="0" width="1024" height="720" visible="false" />
+			<e:Image id="imgFromFile" source="noImg_gif" x="0" y="0" width="400" height="300" visible="true" />
+		</e:Group>
+		<e:Group id="midCanvasGrp" width="1" height="1" />
+	</e:Group>
+</e:Skin>

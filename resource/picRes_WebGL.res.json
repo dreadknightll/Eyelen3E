@@ -1,0 +1,156 @@
+{
+	"groups": [
+	],
+	"resources": [
+		{
+			"url": "pics/img_001.gif",
+			"type": "image",
+			"name": "img_001_gif"
+		},
+		{
+			"url": "pics/img_002.gif",
+			"type": "image",
+			"name": "img_002_gif"
+		},
+		{
+			"url": "pics/img_003.gif",
+			"type": "image",
+			"name": "img_003_gif"
+		},
+		{
+			"url": "pics/img_004.gif",
+			"type": "image",
+			"name": "img_004_gif"
+		},
+		{
+			"url": "pics/img_005.gif",
+			"type": "image",
+			"name": "img_005_gif"
+		},
+		{
+			"url": "pics/img_006.gif",
+			"type": "image",
+			"name": "img_006_gif"
+		},
+		{
+			"url": "pics/img_007.gif",
+			"type": "image",
+			"name": "img_007_gif"
+		},
+		{
+			"url": "pics/img_008.gif",
+			"type": "image",
+			"name": "img_008_gif"
+		},
+		{
+			"url": "pics/img_009.gif",
+			"type": "image",
+			"name": "img_009_gif"
+		},
+		{
+			"url": "pics/img_010.gif",
+			"type": "image",
+			"name": "img_010_gif"
+		},
+		{
+			"url": "pics/img_011.gif",
+			"type": "image",
+			"name": "img_011_gif"
+		},
+		{
+			"url": "pics/img_012.gif",
+			"type": "image",
+			"name": "img_012_gif"
+		},
+		{
+			"url": "pics/img_013.gif",
+			"type": "image",
+			"name": "img_013_gif"
+		},
+		{
+			"url": "pics/img_014.gif",
+			"type": "image",
+			"name": "img_014_gif"
+		},
+		{
+			"url": "pics/img_015.gif",
+			"type": "image",
+			"name": "img_015_gif"
+		},
+		{
+			"url": "pics/pic001.json",
+			"type": "json",
+			"name": "pic001_json"
+		},
+		{
+			"url": "pics/pic002.json",
+			"type": "json",
+			"name": "pic002_json"
+		},
+		{
+			"url": "pics/pic003.json",
+			"type": "json",
+			"name": "pic003_json"
+		},
+		{
+			"url": "pics/pic004.json",
+			"type": "json",
+			"name": "pic004_json"
+		},
+		{
+			"url": "pics/pic005.json",
+			"type": "json",
+			"name": "pic005_json"
+		},
+		{
+			"url": "pics/pic006.json",
+			"type": "json",
+			"name": "pic006_json"
+		},
+		{
+			"url": "pics/pic007.json",
+			"type": "json",
+			"name": "pic007_json"
+		},
+		{
+			"url": "pics/pic008.json",
+			"type": "json",
+			"name": "pic008_json"
+		},
+		{
+			"url": "pics/pic009.json",
+			"type": "json",
+			"name": "pic009_json"
+		},
+		{
+			"url": "pics/pic010.json",
+			"type": "json",
+			"name": "pic010_json"
+		},
+		{
+			"url": "pics/pic011.json",
+			"type": "json",
+			"name": "pic011_json"
+		},
+		{
+			"url": "pics/pic012.json",
+			"type": "json",
+			"name": "pic012_json"
+		},
+		{
+			"url": "pics/pic013.json",
+			"type": "json",
+			"name": "pic013_json"
+		},
+		{
+			"url": "pics/pic014.json",
+			"type": "json",
+			"name": "pic014_json"
+		},
+		{
+			"url": "pics/pic015.json",
+			"type": "json",
+			"name": "pic015_json"
+		}
+	]
+}

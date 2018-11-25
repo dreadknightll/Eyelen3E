@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="copyrightPanelSkin" width="400" height="640" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="noticeBg_png"/>
+	<e:Label id="title" text="著作权声明" x="123.5" y="80" textColor="0xFF0000" bold="true"/>
+	<!--e:EditableText id="content" width="315.33" height="419.34" text="Label" x="42.33" y="141.33" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" size="12" multiline="true"  touchEnabled="true" wordWrap="true"/-->
+	<e:Button id="closeBtn" label="关闭" x="151" y="566"/>
+
+	<e:Image source="rippleCircle_png" width="50" height="50" x="85" y="567"/>
+	<e:Image source="rippleCircle_png" width="50" height="50" x="265" y="567"/>
+
+	<e:Image id="arrowUp" width="40" height="40" x="90" y="611" source="arrow_png" skewX="180"/>
+	<e:Image id="arrowDown" width="40" height="40" x="270" y="571" source="arrow_png"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="scoreViewSkin" width="250" height="75" xmlns:e="http://ns.egret.com/eui">
+	<e:Label text="成绩" width="42" height="66" textColor="0x000000" x="0" y="4"/>
+	<e:Label text="0" id="scoreTxt" height="60" width="80" textColor="0x000000" y="21" x="30"/>
+	<e:Group id="scoreFlags" height="72" width="150" x="76" y="2"/>
+</e:Skin>

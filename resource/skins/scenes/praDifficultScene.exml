@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="praDifficultSceneSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:eyelen3E="eyelen3E.*">
+	<e:Group id="midAreaGroup" x="0" y="300">
+		<eyelen3E:CMidAreaDifficult id="midArea" x="0" y="0" />
+	</e:Group>
+	<e:Group id="topSpaceGrp" height="1" width="1" x="0" y="0"/>
+	<e:Group id="topAreaGroup" x="0" y="50">
+		<e:Group id="bgUnderTopGrp" x="0" y="0" />
+		<eyelen3E:CTopArea_Eyelen id="topArea" x="0" y="0" />
+	</e:Group>
+	<e:Group id="bottomAreaGroup" x="0" y="400">
+		<eyelen3E:CBottomAreaDifficult id="bottomArea" x="0" y="0" />
+	</e:Group>
+	<eyelen3E:CFinalScoreDlg id="finalScoreDlg" x="60" y="111" visible="false"/>
+</e:Skin>

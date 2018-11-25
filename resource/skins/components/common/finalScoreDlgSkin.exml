@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="finalScoreDlgSkin" width="360" height="480" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="bgGrp" width="1" height="1"/>
+	<e:Button id="replayBtn" skinName="resource/skins/components/common/replayButtonSkin.exml" y="314" x="100"/>
+	<e:Label text="最后得分：" size="+36" textColor="0x000000" x="68" y="196"/>
+	<e:Label id="score" text="200" size="+36" textColor="0x000000" x="229" y="196"/>
+	<e:Group id="stars" width="200" height="55" x="82" y="244"/>
+	<e:Label text="练习结束" size="+64" textColor="0x000000" x="52" y="92"/>
+</e:Skin>

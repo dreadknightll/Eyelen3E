@@ -1,0 +1,101 @@
+/*
+ * 画面布局模型。用来确定画面上各大部分的位置和大小。
+ */ 
+class delCEyelen3EWinModel implements delIEyelen3EWinModel {
+	public constructor() {
+
+	}
+
+	private m_topSpaceHeight:number = 50;
+	private m_topHeight1:number = 55;
+	private m_topHeight2:number = 255;
+	private m_showTop:boolean = true;
+
+	private m_bottomHeight:number = 250;
+	private m_winWidth:number = 0;
+	private m_winHeight:number = 0;
+
+	public setTopSpaceHeight(h:number) {
+		this.m_topSpaceHeight = h;
+	}
+
+	public getTopSpaceHeight():number {
+		return this.m_topSpaceHeight;
+	}
+	public getTopY():number {
+		return this.getTopSpaceHeight();
+	}
+
+	public setTopHeight1(h:number):void {
+		this.m_topHeight1 = h;
+	}
+
+	public getTopHeight1():number {
+		return this.m_topHeight1;
+	}
+
+	public setTopHeight2(h:number):void {
+		this.m_topHeight2 = h;
+	}
+
+	public getTopHeight2():number {
+		return this.m_topHeight2;
+	}
+
+	public showTop():void {
+		this.m_showTop = true;
+	}
+
+	public hideTop():void {
+		this.m_showTop = false;
+	}
+
+	public getTopHeight():number {
+		if(this.m_showTop) {
+			return this.m_topHeight2;
+		}
+		else {
+			return this.m_topHeight1;
+		}
+	}
+
+	public getMidY():number {
+		return this.getTopY()+this.getTopHeight();
+	}
+
+	public getMidHeight():number {
+		return this.getWinHeight()-this.getTopSpaceHeight()-this.getTopHeight()-this.getBottomHeight();
+	}
+
+	public getBottomY():number {
+		return this.m_winHeight - this.getBottomHeight();
+	}
+
+	public setBottomHeight(h:number):void {
+		this.m_bottomHeight = h;
+	}
+
+	public getBottomHeight():number {
+		return this.m_bottomHeight;
+	}
+
+	public setWinWidth(w:number):void {
+		this.m_winWidth = w;
+	}
+
+	public getWinWidth():number {
+		return this.m_winWidth;
+	}
+
+	public setWinHeight(h:number) {
+		this.m_winHeight = h;
+	}
+
+	public getWinHeight():number {
+		return this.m_winHeight;
+	}
+
+	public rearrange():void {
+
+	}
+}

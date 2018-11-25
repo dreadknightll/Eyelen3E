@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="alertPanelSkin" width="350" height="400" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="tipBalloon_png" />
+	<e:Label id="content" text="标签" x="23" y="94" size="28" textColor="0xFFFFFF"
+	          width="297" height="151" multiline="true" bold="true"/>
+	<e:Image id="arrow" source="arrow_png"  x="134" y="345" width="84" height="47"/>
+	<e:Button id="closeBtn" label="看完了，关闭" x="113" y="277"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="mainMenuSceneSkin" width="400" height="744" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect x="0" y="0" width="100%" height="100%" fillColor="0x88DD99" />
+	<e:Group id="menuGrp" x="50" y="100" width="300" anchorOffsetY="0" height="500">
+		<e:Label id="startEasyBtn1" text="简单" textColor="0x000000" size="56" x="9" y="108"/>
+		<e:Button id="startEasyBtn2" label="进入" x="135" y="113"/>
+		<e:Label text="中等" textColor="0x000000" size="56" y="328" x="61" visible="false"/>
+		<e:Button label="未开放" y="331" x="86" visible="false"/>
+		<e:Label id="startDifficultBtn1" text="困难" textColor="0x000000" size="56" x="52" y="345"/>
+		<e:Button id="startDifficultBtn2" label="即将开始>" x="176" y="346"/>
+	</e:Group>
+</e:Skin>

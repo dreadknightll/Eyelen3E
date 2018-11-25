@@ -1,0 +1,156 @@
+{
+	"groups": [
+	],
+	"resources": [
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=001",
+			"type": "image",
+			"name": "img_001_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=002",
+			"type": "image",
+			"name": "img_002_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=003",
+			"type": "image",
+			"name": "img_003_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=004",
+			"type": "image",
+			"name": "img_004_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=005",
+			"type": "image",
+			"name": "img_005_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=006",
+			"type": "image",
+			"name": "img_006_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=007",
+			"type": "image",
+			"name": "img_007_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=008",
+			"type": "image",
+			"name": "img_008_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=009",
+			"type": "image",
+			"name": "img_009_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=010",
+			"type": "image",
+			"name": "img_010_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=011",
+			"type": "image",
+			"name": "img_011_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=012",
+			"type": "image",
+			"name": "img_012_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=013",
+			"type": "image",
+			"name": "img_013_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=014",
+			"type": "image",
+			"name": "img_014_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getImgCrossDomain.php?tag=015",
+			"type": "image",
+			"name": "img_015_gif"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=001",
+			"type": "json",
+			"name": "pic001_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=002",
+			"type": "json",
+			"name": "pic002_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=003",
+			"type": "json",
+			"name": "pic003_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=004",
+			"type": "json",
+			"name": "pic004_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=005",
+			"type": "json",
+			"name": "pic005_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=006",
+			"type": "json",
+			"name": "pic006_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=007",
+			"type": "json",
+			"name": "pic007_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=008",
+			"type": "json",
+			"name": "pic008_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=009",
+			"type": "json",
+			"name": "pic009_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=010",
+			"type": "json",
+			"name": "pic010_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=011",
+			"type": "json",
+			"name": "pic011_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=012",
+			"type": "json",
+			"name": "pic012_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=013",
+			"type": "json",
+			"name": "pic013_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=014",
+			"type": "json",
+			"name": "pic014_json"
+		},
+		{
+			"url": "https://www.gdeint.cn/wechatAppData/eyelen/eyelen3E/pics/getPicCrossDomain.php?tag=015",
+			"type": "json",
+			"name": "pic015_json"
+		}
+	]
+}

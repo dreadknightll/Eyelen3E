@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>QUnit tests for Eyelen3E</title>
+  <link rel="stylesheet" href="qunit-2.4.1.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="qunit-2.4.1.js"></script>
+  <script src="../../libs/modules/libGdeint/libGdeint.js"></script>
+  <script src="../inc/structs/Eyelen/CLen.js"></script>
+  <script src="../inc/funcs/eyelen/funcs_Eyelen3E.js"></script>
+  <script src="../components/finders/Eyelen/IEyelen3EResNameFinder.js"></script>
+  <script src="../components/finders/Eyelen/CEyelen3EResNameFinder.js"></script>
+  <script src="../components/finders/Eyelen/CEyelen3EHTTPSResUrlFinder.js"></script>
+
+  <script src="../components/calibrate/Basic_CaliPresenter.js"></script>
+  <script src="../components/calibrate/CCaliPresenterAdapter.js"></script>
+
+  <script src="../components/lenCheckers/CLenCheckerEasy.js"></script>
+  <script src="../components/lenCheckers/CLenCheckerDifficult.js"></script>
+  <script src="../components/renderFilters/Eyelen/CEyelen3ERenderFilter.js"></script>
+  <script src="../components/UIComponents/common/CScoreFlagRect.js"></script>
+
+  <script src="../components/praMachine/Eyelen/CEyelen3EPraMachineEasy.js"></script>
+  <script src="../components/praMachine/Eyelen/CEyelen3EPraMachineDifficult.js"></script>
+  <script src="../components/renderFilters/Eyelen/CNoChangeRenderFilterLen.js"></script>
+  <script src="../components/renderFilters/Eyelen/CEyelen3ERenderFilter.js"></script>
+
+  <script src="../components/winModels/common/IWinModel.js"></script>
+  <script src="../components/winModels/common/ITMBWinModel.js"></script>
+  <script src="../components/winModels/Eyelen/IEyelen3EWinModelV2.js"></script>
+  <script src="../components/winModels/Eyelen/CEyelen3EWinModelV2.js"></script>
+  <script src="../UI/containers/common/CUIContainer.js"></script>
+  <script src="../UI/containers/eyelen/CEyelenPraContainer.js"></script>
+  
+  <script src="mocks/CMockPage.js"></script>
+  <script src="mocks/CMockEyelenPraScene.js"></script>
+  <script src="mocks/CMockAlertDlg.js"></script>
+  <script src="test_funcs.js"></script>
+  <script src="test_praMachines.js"></script>
+  <script src="test_renderFilters.js"></script>
+  <script src="test_subCmps.js"></script>
+  <script src="test_winModels.js"></script>
+  <script src="test_UIContainers.js"></script>
+  <script src="test_finders.js"></script>
+  <script src="test_CCaliPresenter.js"></script>
+  <!--script src="test_UIPresenters.js"></script-->
+</body>
+</html>
+

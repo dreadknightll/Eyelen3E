@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bottomAreaEasySkin" width="480" height="210" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:eyelen3E="eyelen3E.*">
+	<e:Rect fillColor="0x77BBFF" width="100%" height="100%" />
+	<eyelen3E:CLenInputerEasy id="lenInputer" width="20" height="20" x="5" y="23"/>
+	<e:Group id="menuGroup" x="10" y="150" scaleX="1" scaleY="1">
+		<e:Button id="backBtn" label="返回" x="10" y="0"/>
+		<e:Button id="caliBtn" label="横竖校准" x="115" y="0"/>
+	</e:Group>
+</e:Skin>

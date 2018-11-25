@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="cmpLenNextBtnSkin" states="up,down,disabled" width="80" height="90"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" source="next_button_png"
+	           source.down="next_button_down_png" source.disabled="" />
+	<e:Group left="10" right="10" top="10" bottom="10">
+		<e:layout>
+			<e:HorizontalLayout gap="0" verticalAlign="middle" horizontalAlign="center"/>
+		</e:layout>
+		<e:Image id="iconDisplay"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="thumbUI" width="400" height="300" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="thumb" x="0" y="0" width="150" height="120">
+		<e:Image id="imgThumb" width="150" height="120" source="noImg_gif" y="0" x="0" visible="true"/>
+		<e:Group id="randomGraphThumbGrp" x="0" y="0" visible="false" />
+	</e:Group>
+	<e:Image id="thumbSel" width="120" height="100" source="thumb_sel_png" y="5" x="10" visible="true" />
+    <e:Group id="midLayerGrp" width="100%" height="100%" x="0" y="0">
+	    <e:Label id="thumbQuestioner" text="?" size="24" textColor="0xFFFF00" y="80" x="28" bold="true"/>
+    </e:Group>
+	<e:Rect id="thumbCover" width="150" height="120" y="0" x="0" alpha="0.0" />
+</e:Skin>
