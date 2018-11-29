@@ -41,8 +41,8 @@
   ],
   "targets": {
     "android": {
-      "appname": "Eyelen3E_Android",
-      "packagename": "com.gdeint"
+      "appname": "宜英尺眼通3加强版",
+      "packagename": "org.egret.java.Eyelen3E_Android"
     }
   }
 }

@@ -92,7 +92,7 @@ var S_NATIVE_ANDROID = 2;
 var S_NATIVE_IOS = 3;
 var S_NATIVE_WP = 4;
 var S_WECHAT = 5; // 发布成微信小游戏。另须移除项目里的resoure/pics目录。否则体积太大。
-var S_BUILD_FOR = S_WECHAT;
+var S_BUILD_FOR = S_NATIVE_ANDROID;
 var S_NO_IMG_MODE = true; // 无图模式开关。只在S_WECHAT模式有效。开启后Pic从本地读取，且不使用img。
 var S_CHECK_UPDATE_ANDROID = false; // 是否检查更新。
 var g_winWidth; // 保存屏幕宽度。
