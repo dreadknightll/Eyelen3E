@@ -128,9 +128,11 @@ var eyelen3E;
                 }
             }
             else {
+                console.log("OK1");
                 this.m_UIPresenter.nextLen();
                 this.m_UIPresenter.setUserLen(0);
                 this.bottomArea.lenInputer.clearLen();
+                console.log("Len cleared!");
                 this.bottomArea.lenInputer.unlock();
                 this.showLen(this.m_pm.getCurLen());
             }
