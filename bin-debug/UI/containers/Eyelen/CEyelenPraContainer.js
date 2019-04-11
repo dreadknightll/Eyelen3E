@@ -163,37 +163,6 @@ var CEyelenPraContainer = (function (_super) {
         var curTag;
         for (curTag = 0; curTag < this.m_seledPicTagArr.length; ++curTag) {
             var strResName;
-            /*                if(S_BUILD_FOR == S_WECHAT) {
-                                if(S_NO_IMG_MODE) {
-                                    var n = this.m_seledPicTagArr[curTag];
-                                    if(n < 10) {
-                                        strResName = "pic00" + n;
-                                    }
-                                    else if(n < 100) {
-                                        strResName = "pic0" + n;
-                                    }
-                                    else {
-                                        strResName = "pic" + n;
-                                    }
-                                    strResName += "_json";
-                                }
-                                else {
-                                    strResName = tag2HTTPSPicResUrl_Eyelen(this.m_seledPicTagArr[curTag]);
-                                }
-                            }
-                            else {
-                                var n = this.m_seledPicTagArr[curTag];
-                                if(n < 10) {
-                                    strResName = "pic00" + n;
-                                }
-                                else if(n < 100) {
-                                    strResName = "pic0" + n;
-                                }
-                                else {
-                                    strResName = "pic" + n;
-                                }
-                                strResName += "_json";
-                            } */
             this.m_resNameFinder.setInp(this.m_seledPicTagArr[curTag].toString());
             strResName = this.m_resNameFinder.getResult();
             var picJsn;

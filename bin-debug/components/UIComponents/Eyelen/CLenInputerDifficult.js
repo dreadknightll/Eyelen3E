@@ -134,6 +134,8 @@ var eyelen3E;
         CLenInputerDifficult.prototype.clearLen = function () {
             this.drager.x = this.m_dragerBaseX;
             this.m_rulerBodyShape.graphics.clear();
+            this.m_rulerBodyShape.graphics.beginFill(0x000000);
+            this.m_rulerBodyShape.graphics.endFill(); // 要加上这两行否则安卓真机下可能清除失败。
             this.m_firstDraged = false;
             this.okBtn.enabled = false;
         };

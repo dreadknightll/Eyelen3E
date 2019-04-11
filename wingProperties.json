@@ -18,10 +18,6 @@
                 "relativePath": "resource/"
             },
             {
-                "configPath": "resource/delpicRes_HTTPS.res.json",
-                "relativePath": "resource/"
-            },
-            {
                 "configPath": "resource/picRes_NoImg.res.json",
                 "relativePath": "resource/"
             }
