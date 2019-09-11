@@ -107,3 +107,4 @@ var LoadingUI_Eint_V2 = (function (_super) {
     return LoadingUI_Eint_V2;
 }(egret.Sprite));
 __reflect(LoadingUI_Eint_V2.prototype, "LoadingUI_Eint_V2", ["RES.PromiseTaskReporter"]);
+//# sourceMappingURL=LoadingUI_Eint_V2.js.map

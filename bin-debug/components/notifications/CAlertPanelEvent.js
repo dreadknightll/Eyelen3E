@@ -24,3 +24,4 @@ var CAlertPanelEvent = (function (_super) {
     return CAlertPanelEvent;
 }(egret.Event));
 __reflect(CAlertPanelEvent.prototype, "CAlertPanelEvent");
+//# sourceMappingURL=CAlertPanelEvent.js.map

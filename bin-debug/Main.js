@@ -86,13 +86,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
  * Main类为程序入口类。
  *
 **************************************************/
-//var S_IS_IOS: boolean = false; // 若要以 iOS app形式发布程序，则应把此开关设为 true。
 var S_WEB = 1;
 var S_NATIVE_ANDROID = 2;
 var S_NATIVE_IOS = 3;
 var S_NATIVE_WP = 4;
 var S_WECHAT = 5; // 发布成微信小游戏。另须移除项目里的resoure/pics目录。否则体积太大。
-var S_BUILD_FOR = S_WECHAT;
+var S_BUILD_FOR = S_NATIVE_ANDROID;
 var S_NO_IMG_MODE = true; // 无图模式开关。只在S_WECHAT模式有效。开启后Pic从本地读取，且不使用img。
 var S_CHECK_UPDATE_ANDROID = false; // 是否检查更新。
 var g_winWidth; // 保存屏幕宽度。
@@ -169,7 +168,8 @@ var Main = (function (_super) {
         egret.lifecycle.onResume = function () {
             egret.ticker.resume();
         };
-        //注入素材解析器，以对界面等素材文件进行解析和显示。
+        //inject the custom material parser
+        //注入自定义的素材解析器
         var assetAdapter = new AssetAdapter();
         egret.registerImplementation("eui.IAssetAdapter", assetAdapter);
         egret.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
@@ -255,6 +255,8 @@ var Main = (function (_super) {
     Main.prototype.loadTheme = function () {
         var _this = this;
         return new Promise(function (resolve, reject) {
+            // load skin theme configuration file, you can manually modify the file. And replace the default skin.
+            //加载皮肤主题配置文件,可以手动修改这个文件。替换默认皮肤。
             var theme = new eui.Theme("resource/default.thm.json", _this.stage);
             theme.addEventListener(eui.UIEvent.COMPLETE, function () {
                 resolve();
@@ -263,6 +265,7 @@ var Main = (function (_super) {
     };
     /**
      * 创建场景界面
+     * Create scene interface
      */
     Main.prototype.createScene = function () {
         g_praEasyScene = new eyelen3E.CPraEasyScene();
@@ -371,3 +374,4 @@ var Main = (function (_super) {
     return Main;
 }(eui.UILayer));
 __reflect(Main.prototype, "Main");
+//# sourceMappingURL=Main.js.map

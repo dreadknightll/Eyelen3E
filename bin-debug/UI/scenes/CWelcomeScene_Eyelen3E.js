@@ -66,6 +66,7 @@ var eyelen3E;
                 this.showCRBtn.y += 15;
             }
             this.showCRBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onShowCR, this);
+            this.showPriBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onShowPri, this);
             this.startBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onStartPra, this);
             this.caliSquare.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onSquareTap, this);
         };
@@ -75,6 +76,9 @@ var eyelen3E;
         };
         CWelcomeScene_Eyelen3E.prototype.onShowCR = function () {
             this.crPanel.visible = true;
+        };
+        CWelcomeScene_Eyelen3E.prototype.onShowPri = function () {
+            this.priPanel.visible = true;
         };
         CWelcomeScene_Eyelen3E.prototype.onStartPra = function (evt) {
             g_pageJumper.gotoPage("MainMenu", null);
@@ -98,3 +102,4 @@ var eyelen3E;
     eyelen3E.CWelcomeScene_Eyelen3E = CWelcomeScene_Eyelen3E;
     __reflect(CWelcomeScene_Eyelen3E.prototype, "eyelen3E.CWelcomeScene_Eyelen3E");
 })(eyelen3E || (eyelen3E = {}));
+//# sourceMappingURL=CWelcomeScene_Eyelen3E.js.map

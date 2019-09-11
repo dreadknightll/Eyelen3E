@@ -24,3 +24,4 @@ var CTopAreaEvent_Eyelen = (function (_super) {
     return CTopAreaEvent_Eyelen;
 }(egret.Event));
 __reflect(CTopAreaEvent_Eyelen.prototype, "CTopAreaEvent_Eyelen");
+//# sourceMappingURL=CTopAreaEvent_Eyelen.js.map

@@ -42,3 +42,4 @@ var CRulerEasyBodyCell = (function (_super) {
     return CRulerEasyBodyCell;
 }(egret.Bitmap));
 __reflect(CRulerEasyBodyCell.prototype, "CRulerEasyBodyCell");
+//# sourceMappingURL=CRulerEasyBodyCell.js.map

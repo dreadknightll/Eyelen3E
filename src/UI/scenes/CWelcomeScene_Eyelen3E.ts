@@ -18,7 +18,9 @@ namespace eyelen3E {
         private updateGroup:eui.Group;
         private urlText:eui.EditableText;
         private showCRBtn:eui.Image;
+        private showPriBtn:eui.Panel;
         private crPanel:eui.Panel;
+        private priPanel:eui.Panel;
         public startBtn:eui.Button;
         public caliSquare:eui.Image;
         public localVer: eui.Label;
@@ -77,8 +79,9 @@ namespace eyelen3E {
                 this.showCRBtn.x+=20;
                 this.showCRBtn.y+=15;
             }
-        
+
             this.showCRBtn.addEventListener(egret.TouchEvent.TOUCH_TAP , this.onShowCR , this);
+            this.showPriBtn.addEventListener(egret.TouchEvent.TOUCH_TAP , this.onShowPri , this);
             this.startBtn.addEventListener(egret.TouchEvent.TOUCH_TAP , this.onStartPra , this);
             this.caliSquare.addEventListener(egret.TouchEvent.TOUCH_TAP , this.onSquareTap , this);
 
@@ -91,6 +94,10 @@ namespace eyelen3E {
         
         private onShowCR():void {
             this.crPanel.visible = true;
+        }
+
+        private onShowPri():void {
+            this.priPanel.visible = true;
         }
 
         public onStartPra(evt:egret.TouchEvent):void {

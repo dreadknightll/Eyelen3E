@@ -44,7 +44,6 @@
  * 
 **************************************************/
 
-//var S_IS_IOS: boolean = false; // 若要以 iOS app形式发布程序，则应把此开关设为 true。
 
 const S_WEB:number = 1;
 const S_NATIVE_ANDROID:number = 2;
@@ -52,7 +51,7 @@ const S_NATIVE_IOS:number = 3;
 const S_NATIVE_WP:number = 4;
 const S_WECHAT:number = 5; // 发布成微信小游戏。另须移除项目里的resoure/pics目录。否则体积太大。
 
-const S_BUILD_FOR:number = S_WECHAT;
+const S_BUILD_FOR:number = S_NATIVE_ANDROID;
 
 const S_NO_IMG_MODE:boolean = true; // 无图模式开关。只在S_WECHAT模式有效。开启后Pic从本地读取，且不使用img。
 
@@ -98,7 +97,6 @@ var g_notiLayerContainer:egret.DisplayObjectContainer = new egret.DisplayObjectC
 var g_level: number = 0; // 当前练习的难度。0：未知。1：简单。2：中等。3：困难。
 
 var g_pageJumper:gdeint.CPageJumper; // 页面跳转器。在libGdeint里实现。用一个页面跳转器把上面的页面串起来。
-
 
 class Main extends eui.UILayer {
 
@@ -159,7 +157,8 @@ class Main extends eui.UILayer {
             egret.ticker.resume();
         }
 
-        //注入素材解析器，以对界面等素材文件进行解析和显示。
+        //inject the custom material parser
+        //注入自定义的素材解析器
         let assetAdapter = new AssetAdapter();
         egret.registerImplementation("eui.IAssetAdapter", assetAdapter);
         egret.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
@@ -185,7 +184,6 @@ class Main extends eui.UILayer {
             loadingView1.visible = true;
             await RES.loadConfig("resource/default.res.json", "resource/");
             if(S_BUILD_FOR == S_WECHAT) {
-//                await RES.loadConfig("resource/picRes_HTTPS.res.json", "resource/");
                 if(S_NO_IMG_MODE) {
                     await RES.loadConfig("resource/picRes_NoImg.res.json", "resource/");
                     g_resLoader = new CEgretDefaultResLoader();
@@ -215,8 +213,6 @@ class Main extends eui.UILayer {
 
             await RES.loadGroup("eint", 0, loadingView2); //eint资源组有宜英通用的图片音乐等资源。
             await RES.loadGroup("preload", 0, loadingView2); //preload资源组为系统默认资源组。未人工分类的资源都在这里。资源较多。
-//            loadingView2.visible = false;
-//            this.stage.removeChild(loadingView2);
         }
         catch (e) {
             console.error(e);
@@ -225,6 +221,8 @@ class Main extends eui.UILayer {
 
     private loadTheme() {
         return new Promise((resolve, reject) => {
+            // load skin theme configuration file, you can manually modify the file. And replace the default skin.
+            //加载皮肤主题配置文件,可以手动修改这个文件。替换默认皮肤。
             let theme = new eui.Theme("resource/default.thm.json", this.stage);
             theme.addEventListener(eui.UIEvent.COMPLETE, () => {
                 resolve();
@@ -235,9 +233,9 @@ class Main extends eui.UILayer {
 
     /**
      * 创建场景界面
+     * Create scene interface
      */
     protected createScene(): void {
-
         g_praEasyScene = new eyelen3E.CPraEasyScene();
         if(S_BUILD_FOR == S_WECHAT && S_NO_IMG_MODE) {
             g_praEasyScene.m_NoImgMode = true;

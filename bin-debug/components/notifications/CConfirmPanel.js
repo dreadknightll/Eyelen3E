@@ -109,3 +109,4 @@ var eyelen3E;
     eyelen3E.CConfirmPanel = CConfirmPanel;
     __reflect(CConfirmPanel.prototype, "eyelen3E.CConfirmPanel", ["IConfirmDlg", "INotification", "IContainerPlugin", "gdeint.IHidable"]);
 })(eyelen3E || (eyelen3E = {}));
+//# sourceMappingURL=CConfirmPanel.js.map

@@ -40,6 +40,7 @@ var ThemeAdapter = (function () {
      * @param thisObject 回调的this引用
      */
     ThemeAdapter.prototype.getTheme = function (url, onSuccess, onError, thisObject) {
+        var _this = this;
         function onResGet(e) {
             onSuccess.call(thisObject, e);
         }
@@ -54,6 +55,39 @@ var ThemeAdapter = (function () {
                 onSuccess.call(thisObject, generateEUI);
             }, this);
         }
+        else if (typeof generateEUI2 !== 'undefined') {
+            RES.getResByUrl("resource/gameEui.json", function (data, url) {
+                window["JSONParseClass"]["setData"](data);
+                egret.callLater(function () {
+                    onSuccess.call(thisObject, generateEUI2);
+                }, _this);
+            }, this, RES.ResourceItem.TYPE_JSON);
+        }
+        else if (typeof generateJSON !== 'undefined') {
+            if (url.indexOf(".exml") > -1) {
+                var dataPath = url.split("/");
+                dataPath.pop();
+                var dirPath = dataPath.join("/") + "_EUI.json";
+                if (!generateJSON.paths[url]) {
+                    RES.getResByUrl(dirPath, function (data) {
+                        window["JSONParseClass"]["setData"](data);
+                        egret.callLater(function () {
+                            onSuccess.call(thisObject, generateJSON.paths[url]);
+                        }, _this);
+                    }, this, RES.ResourceItem.TYPE_JSON);
+                }
+                else {
+                    egret.callLater(function () {
+                        onSuccess.call(thisObject, generateJSON.paths[url]);
+                    }, this);
+                }
+            }
+            else {
+                egret.callLater(function () {
+                    onSuccess.call(thisObject, generateJSON);
+                }, this);
+            }
+        }
         else {
             RES.addEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, onResError, null);
             RES.getResByUrl(url, onResGet, this, RES.ResourceItem.TYPE_TEXT);
@@ -62,3 +96,4 @@ var ThemeAdapter = (function () {
     return ThemeAdapter;
 }());
 __reflect(ThemeAdapter.prototype, "ThemeAdapter", ["eui.IThemeAdapter"]);
+//# sourceMappingURL=ThemeAdapter.js.map

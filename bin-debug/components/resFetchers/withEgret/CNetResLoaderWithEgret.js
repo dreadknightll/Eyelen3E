@@ -17,3 +17,4 @@ var CNetResLoaderWithEgret = (function () {
     return CNetResLoaderWithEgret;
 }());
 __reflect(CNetResLoaderWithEgret.prototype, "CNetResLoaderWithEgret", ["IResWithEgret", "IResFetcher"]);
+//# sourceMappingURL=CNetResLoaderWithEgret.js.map

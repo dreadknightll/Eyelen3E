@@ -39,3 +39,4 @@ var CHTTPSResStru = (function () {
     return CHTTPSResStru;
 }());
 __reflect(CHTTPSResStru.prototype, "CHTTPSResStru");
+//# sourceMappingURL=CHTTPSResStru.js.map

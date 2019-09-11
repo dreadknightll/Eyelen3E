@@ -58,3 +58,4 @@ var CCaliPresenterAdapter = (function () {
     return CCaliPresenterAdapter;
 }());
 __reflect(CCaliPresenterAdapter.prototype, "CCaliPresenterAdapter", ["ICaliPresenter"]);
+//# sourceMappingURL=CCaliPresenterAdapter.js.map

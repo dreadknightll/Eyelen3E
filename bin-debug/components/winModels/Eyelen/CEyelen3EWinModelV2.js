@@ -96,3 +96,4 @@ var CEyelen3EWinModelV2 = (function () {
     return CEyelen3EWinModelV2;
 }());
 __reflect(CEyelen3EWinModelV2.prototype, "CEyelen3EWinModelV2", ["IEyelen3EWinModelV2", "ITMBWinModel", "IWinModel"]);
+//# sourceMappingURL=CEyelen3EWinModelV2.js.map

@@ -60,3 +60,4 @@ var LoadingUI_NoUI = (function (_super) {
     return LoadingUI_NoUI;
 }(egret.Sprite));
 __reflect(LoadingUI_NoUI.prototype, "LoadingUI_NoUI", ["RES.PromiseTaskReporter"]);
+//# sourceMappingURL=LoadingUI_NoUI.js.map

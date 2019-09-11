@@ -7,19 +7,27 @@
         {
             "taskName": "build",
             "showOutput": "always",
-            "args": ["build", "-sourcemap"],
+            "args": [
+                "build",
+                "-sourcemap"
+            ],
             "problemMatcher": "$tsc"
         },
         {
             "taskName": "clean",
             "showOutput": "always",
-            "args": ["build", "-e"],
+            "args": [
+                "build",
+                "-e"
+            ],
             "problemMatcher": "$tsc"
         },
         {
             "taskName": "publish",
             "showOutput": "always",
-            "args": ["publish"],
+            "args": [
+                "publish"
+            ],
             "problemMatcher": "$tsc"
         }
     ]

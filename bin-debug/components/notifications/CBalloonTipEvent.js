@@ -24,3 +24,4 @@ var CBalloonTipEvent = (function (_super) {
     return CBalloonTipEvent;
 }(egret.Event));
 __reflect(CBalloonTipEvent.prototype, "CBalloonTipEvent");
+//# sourceMappingURL=CBalloonTipEvent.js.map

@@ -1,48 +1,38 @@
 {
-	"engineVersion": "5.2.17",
-	"compilerVersion": "5.2.17",
-	"template": {},
-	"target": {
-		"current": "wxgame"
-	},
-	"eui": {
-		"exmlRoot": [
-			"resource/eui_skins",
-			"resource/skins"
-		],
-		"themes": [
-			"resource/default.thm.json"
-		],
-		"exmlPublishPolicy": "commonjs"
-	},
-	"modules": [
-		{
-			"name": "egret"
-		},
-		{
-			"name": "eui"
-		},
-		{
-			"name": "assetsmanager"
-		},
-		{
-			"name": "tween"
-		},
-		{
-			"name": "game"
-		},
-		{
-			"name": "promise"
-		},
-		{
-			"name": "libGdeint",
-			"path": "/Users/dreadknightll/Desktop/src/gdeint/libGdeint/libGdeint"
-		}
-	],
-	"targets": {
-		"android": {
-			"appname": "宜英尺眼通3加强版",
-			"packagename": "org.egret.java.Eyelen3E_Android"
-		}
-	}
+  "engineVersion": "5.2.17",
+  "compilerVersion": "5.2.17",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "libGdeint",
+      "path": "/src/gdeint/libGdeint/libGdeint"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "宜英尺眼通3加强版",
+      "packagename": "org.egret.java.Eyelen3E_Android"
+    }
+  }
 }

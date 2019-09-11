@@ -16,3 +16,4 @@ var CEgretDefaultResLoader = (function () {
     return CEgretDefaultResLoader;
 }());
 __reflect(CEgretDefaultResLoader.prototype, "CEgretDefaultResLoader", ["IResWithEgret", "IResFetcher"]);
+//# sourceMappingURL=CEgretDefaultResLoader.js.map

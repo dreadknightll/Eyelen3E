@@ -24,3 +24,4 @@ var CConfirmPanelEvent = (function (_super) {
     return CConfirmPanelEvent;
 }(egret.Event));
 __reflect(CConfirmPanelEvent.prototype, "CConfirmPanelEvent");
+//# sourceMappingURL=CConfirmPanelEvent.js.map
